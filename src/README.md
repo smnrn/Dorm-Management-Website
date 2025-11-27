@@ -86,17 +86,22 @@ NODE_ENV=development
 ```bash
 # Install frontend dependencies
 npm install
+npm audit fix --force
+npm install react react-dom
+npm install --save-dev @types/react @types/react-dom
 
 # Install backend dependencies
-cd backend
+cd src/backend
 npm install
+npm install postgres
+npm install bcrypt
 ```
 
 ### 4. Start Application
 
 ```bash
 # Terminal 1 - Start backend
-cd backend
+cd src/backend
 npm start
 
 # Terminal 2 - Start frontend
@@ -109,11 +114,11 @@ Access the application and login with:
 
 **Admin Account:**
 - Username: `simon.roaring`
-- Password: `admin123`
+- Password: `pass123`
 
 **HelpDesk Account:**
 - Username: `kenrick.cham`
-- Password: `admin123`
+- Password: `pass123`
 
 **Tenant Accounts** (if you create them):
 - Create through Admin dashboard
@@ -254,13 +259,13 @@ For detailed animation documentation, see: `ANIMATIONS_GUIDE.md`
 **Admin:**
 ```
 Username: simon.roaring
-Password: admin123
+Password: pass123
 ```
 
 **HelpDesk:**
 ```
 Username: kenrick.cham
-Password: admin123
+Password: pass123
 ```
 
 **Create Tenant Accounts:**
