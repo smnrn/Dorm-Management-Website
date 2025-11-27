@@ -5,8 +5,8 @@
 **Facilitator:** Dr. Eduardo R. Yu II, LPT, DIT  
 **Task Duration:** 1 Week  
 **Task Title:** Initial Development Sprint – Week 1 Build  
-**Submitted by:** [Your Name]  
-**Date Submitted:** [Current Date]
+**Submitted by:** Simon Ron Joshua E. Roaring  
+**Date Submitted:** November 27, 2025
 
 ---
 
